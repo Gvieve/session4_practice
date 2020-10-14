@@ -1,0 +1,23 @@
+Class: Flooring
+
+Attributes:
+material_type (string)
+brand (string)
+color (array)
+item_length (float)
+item_width (float)
+item_thickness (float)
+is_waterproof (boolean)
+is_hardwood (boolean)
+install_type (array)
+case_cost (float)
+items_per_case (integer)
+units (integer)
+
+Methods:
+item_sqft (item_width * item_length)
+case_sqft ((item_width * item_length) * items_per_case)
+total_order_sqft (units * case_sqft)
+add color (append color to color array)
+order_cost (case_cost * units)
+increase units (add 1 to units)
