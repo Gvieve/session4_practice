@@ -1,0 +1,23 @@
+Class: Honeysuckle Oak Hardwood
+
+Attributes:
+material_type = "Hardwood planks"
+brand = "Flooring Forever"
+color = ["light gray", "honey", "warm yellow"]
+item_length = 47.50
+item_width = 6.125
+item_thickness_mm = 7
+is_waterproof = false
+is_hardwood = true
+install_type = ["Nail down", "Glue down"]
+case_cost = 69.98
+items_per_case = 40
+units = 5
+
+Methods:
+item_sqft (47.50 * 6.125)/144 = .372
+case_sqft ((.372) * 40) = 14.90
+total_order_sqft (5 * 14.90) = 74.50
+add color = color = ["light gray", "honey", "warm yellow", "medium brown"]
+order_cost (69.98 * 5) = 349.90
+increase units (add 1 to units) = units = 6
